@@ -1,0 +1,51 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore datasets & large files (optional)
+data/
+datasets/
+*.csv
+*.h5
+*.tfrecords
+*.npy
+
+# Ignore model weights & checkpoints
+checkpoints/
+*.ckpt
+*.hdf5
+*.pth
+*.onnx
+
+# Ignore TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Ignore compiled Python files
+*.so
+
+# Ignore config & credential files
+config.json
+secrets.json
+.env
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt
